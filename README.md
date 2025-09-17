@@ -1,2 +1,2 @@
-# sophie-hemling-html-css-projekt
+# Sophie Hemling HTML CSS Projekt
 

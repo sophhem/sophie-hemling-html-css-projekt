@@ -1,0 +1,13 @@
+.bilder-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    align-items: center;
+}
+.bilder-container img{
+    gap: 10px;
+    width: 33.3%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}

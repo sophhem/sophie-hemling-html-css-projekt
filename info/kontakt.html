@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="../css/allgemein.css">
+    <link rel="stylesheet" href="../css/kontakt.css">
+</head>
+<body>
+    <header>
+        <div class="headercontainer">
+            <a href="../index.html"><img src="../logo/webagentur-star-logo.png" alt="webagentur-star-logo" height="60" id="agenturlogo"></a>
+            <nav>
+                <p>
+                    <a href="../index.html">Startseite </a>|
+                    
+                    <a href="../info/leistungen.html">Leistungen </a>|
+                    <a href="../info/medien/bildergalerie.html">Bildergalerie </a>|
+                    <a href="../info/teammitglieder.html">Teammitglieder </a>|
+                    <a href="../info/medien/werbevideo.html">Werbevideo</a>
+                </p>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Kontakt</h1>
+        <div class="kontaktformular">
+            <form action="mailtomail@example.com" method="post" enctype="text/plain">
+                <fieldset>
+                    <p>
+                        <label for="vorname">Vorname: *</label><br>
+                        <input type="text" id="vorname" name="vorname" class="form-input" placeholder="Vorname eintragen" size="50" maxlength="50" required>
+                    </p>
+                    <p>
+                        <label for="nachname">Nachname: *</label><br>
+                        <input type="text" id="nachname" name="nachname" class="form-input" placeholder="Nachname eintragen" size="50" maxlength="50" required>
+                    </p>
+                    <p>
+                        <label for="email">Email Addresse: *</label><br>
+                        <input type="email" id="email" name="email" class="form-input" placeholder="beispiel@beispiel.de" size="50" maxlength="50" required>
+                    </p>
+                    <p>
+                        <label for="telephone">Telephone:</label><br>
+                        <input type="tel" id="telephone" name="telephone" class="form-input" placeholder="Freiwillig Telefon" size="50" maxlength="50">
+                    </p>
+                    <p>
+                    <label for="nachricht">Nachricht: *</label><br>
+                        <textarea name="nachricht" id="nachricht" class="form-input" rows="5" cols="50" placeholder="Bitte Nachricht eintragen"></textarea></p>
+                    <p><input type="submit" name="Abschicken" value="Senden!"></p>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footercontainer">
+            <p>© webagenturStar GmbH |
+                <a href="../info/impressum.html">Impressum </a>|
+                <a href="../info/kontakt.html">Kontakt </a>|
+                <a href="#agenturlogo">nach oben </a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

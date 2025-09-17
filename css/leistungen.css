@@ -1,0 +1,16 @@
+.leistungen{
+    list-style: none;
+}
+.leistungen li{
+    width: 200px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid goldenrod;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+.leistungen li a {
+  text-decoration: none;   
+  color: #004aad;            
+  display: block;
+}

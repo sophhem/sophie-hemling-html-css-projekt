@@ -1,0 +1,61 @@
+header{
+    background-color:rgb(240,240,240) ;
+}
+nav{
+    color: goldenrod;
+    font-size: 25px;
+    background-color: #004aad;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav a {
+    color: goldenrod;          
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;             
+}
+
+body{
+    background-color: rgb(240,240,240);
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3{
+    font-family: Arial, sans-serif;
+    color: #004aad;
+}
+
+h1{
+    font-size: 50px;
+}
+h3{
+    color: goldenrod;
+}
+p{
+    font-family: Arial, sans-serif;
+}
+
+footer{
+    color: goldenrod; 
+    font-size: 25px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #004aad;
+}
+footer a {
+    color: goldenrod;          
+    text-decoration: none; 
+}
+
+footer a:hover {
+    color: white;             
+}
+
+

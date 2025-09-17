@@ -1,0 +1,6 @@
+main{
+    max-width: 800px;    /* zentriert den Block */
+    padding: 20px;
+    line-height: 1.6;    /* bessere Lesbarkeit */
+    font-family: Arial, sans-serif;
+}

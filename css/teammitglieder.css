@@ -1,0 +1,22 @@
+h1{
+    size: 25px;
+}
+table, th, td {
+    font-family: Arial, sans-serif;
+    border: 1px solid #004aad;
+    border-collapse: collapse;
+    width: 1500px;
+}
+th {
+  font-weight: bold;
+  text-align: center;
+}
+
+tbody td:first-child {
+  font-weight: bold;
+  text-align: center;
+}
+
+td{
+    text-align: left;
+}

@@ -1,7 +1,8 @@
 header{
     background-color:rgb(240,240,240) ;
 }
-nav{
+nav ul{
+    list-style: none;
     color: goldenrod;
     font-size: 25px;
     background-color: #004aad;
@@ -9,20 +10,27 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    gap: 20px;  
+}
+nav ul{
+    text-decoration: none;
 }
 nav a {
     color: goldenrod;          
     text-decoration: none;
+
 }
 
 nav a:hover {
-    color: white;             
+    color: white;         
 }
 
 body{
     background-color: rgb(240,240,240);
     font-family: Arial, sans-serif;
+}
+main{
+    margin-bottom: 40px;
 }
 
 h1, h2, h3{
@@ -44,10 +52,23 @@ footer{
     color: goldenrod; 
     font-size: 25px;
     height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #004aad;
+}
+
+footer.footercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+}
+
+
+footer ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;  
 }
 footer a {
     color: goldenrod;          

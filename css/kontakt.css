@@ -16,7 +16,7 @@ fieldset{
 
 input:focus,
 textarea:focus {
-    border: 1px solid #004aad;
+    border: 1px solid pink;
     background-color: lightgoldenrodyellow;
 }
 input[type="submit"]{

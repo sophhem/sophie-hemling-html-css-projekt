@@ -1,6 +1,6 @@
 main{
-    max-width: 800px;    /* zentriert den Block */
+    max-width: 800px;
     padding: 20px;
-    line-height: 1.6;    /* bessere Lesbarkeit */
+    line-height: 1.6;
     font-family: Arial, sans-serif;
 }
